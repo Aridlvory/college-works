@@ -23,6 +23,7 @@ int main()
 			scanf("%f", &temp);
 			Cel = (temp - 32) / 1.8;
 			printf("Fahrenheit to Celsius %lf", Fahr);
+			printf("Fahrenheit to Celsius %lf", Cel);
 			break;
 		default:
 			printf("Wrong Code... Abort!");
