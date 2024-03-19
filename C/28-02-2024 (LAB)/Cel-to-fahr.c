@@ -22,6 +22,7 @@ int main()
 			printf("Enter Temperature value: ");
 			scanf("%f", &temp);
 			Cel = (temp - 32) / 1.8;
+			printf("Fahrenheit to Celsius %lf", Fahr);
 			printf("Fahrenheit to Celsius %lf", Cel);
 			break;
 		default:
