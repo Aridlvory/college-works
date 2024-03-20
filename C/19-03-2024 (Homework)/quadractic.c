@@ -32,7 +32,7 @@ int main()
 			{
 				r = -b / (2 * a);
 				d = -d;
-				i = (d) / (2 * a);
+				i = (sqrt(d)) / (2 * a);
 				r1 = r + i;
 				r2 = r - i;
 				printf("The Roots are not real and unequal: x1 = %f\tx2 = %f", r1, r2);
